@@ -56,3 +56,5 @@ function decodeBase64(encoded: Uint8Array) {
 function encodeBase64(data: string) {
   return Uint8Array.from(atob(data), (ch) => ch.codePointAt(0)!);
 }
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=crypto.ts
